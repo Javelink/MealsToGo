@@ -11,7 +11,6 @@ export const styles = StyleSheet.create({
   },
   listWrapper: {
     flex: 1,
-    backgroundColor: "blue",
     padding: 16,
   },
 });
