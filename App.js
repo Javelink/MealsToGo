@@ -1,12 +1,13 @@
 import React from "react";
 import { StyleSheet, SafeAreaView, View, Text, StatusBar } from "react-native";
+import { SearchBar } from "./src/components/SearchBar/search-bar";
 
-export const App = () => {
+export default function App() {
   return (
     <>
       <SafeAreaView style={styles.safeAreaView}>
         <View style={styles.searchWrapper}>
-          <Text>search</Text>
+          <SearchBar />
         </View>
         <View style={styles.listWrapper}>
           <Text>list</Text>
@@ -15,7 +16,7 @@ export const App = () => {
       <StatusBar barStyle="default" />
     </>
   );
-};
+}
 
 const styles = StyleSheet.create({
   safeAreaView: {
@@ -24,7 +25,6 @@ const styles = StyleSheet.create({
     marginTop: StatusBar.currentHeight,
   },
   searchWrapper: {
-    backgroundColor: "green",
     padding: 16,
   },
   listWrapper: {
