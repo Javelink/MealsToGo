@@ -1,6 +1,6 @@
 import {StyleSheet, SafeAreaView, View, Text, StatusBar} from 'react-native';
 
-export default function App() {
+export const App = () => {
   return (
     <>
       <SafeAreaView style={styles.safeAreaView}>
