@@ -1,9 +1,10 @@
 import { StatusBar, StyleSheet } from "react-native";
+import { colors } from "../../infrastructure/theme/colors";
 
 export const styles = StyleSheet.create({
   safeAreaView: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: colors.quaternary,
     marginTop: StatusBar.currentHeight,
   },
   searchWrapper: {
