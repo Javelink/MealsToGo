@@ -1,6 +1,10 @@
 {
   "extends": "@react-native-community",
+  "parser": "@babel/eslint-parser",
   "rules": {
-    "quotes": ["warn", "double", { "allowTemplateLiterals": true }]
+    "quotes": ["warn", "double", { "allowTemplateLiterals": true }],
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "no-unused-vars": ["warn", {"vars": "all", "args": "after-used"}]
   }
 }

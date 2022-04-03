@@ -8,7 +8,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "lint": "eslint . --ext .js"
+    "lint": "eslint . --ext .js .jsx"
   },
   "dependencies": {
     "expo": "~44.0.0",
@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
+    "@babel/eslint-parser": "^7.17.0",
     "@react-native-community/eslint-config": "^3.0.1",
     "eslint": "^7.32.0",
     "prettier": "^2.6.2"
