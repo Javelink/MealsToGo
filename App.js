@@ -1,4 +1,5 @@
-import {StyleSheet, SafeAreaView, View, Text, StatusBar} from 'react-native';
+import React from "react";
+import { StyleSheet, SafeAreaView, View, Text, StatusBar } from "react-native";
 
 export const App = () => {
   return (
@@ -14,21 +15,21 @@ export const App = () => {
       <StatusBar barStyle="default" />
     </>
   );
-}
+};
 
 const styles = StyleSheet.create({
   safeAreaView: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: "#fff",
     marginTop: StatusBar.currentHeight,
   },
   searchWrapper: {
-    backgroundColor: 'green',
+    backgroundColor: "green",
     padding: 16,
   },
   listWrapper: {
     flex: 1,
-    backgroundColor: 'blue',
+    backgroundColor: "blue",
     padding: 16,
   },
 });
