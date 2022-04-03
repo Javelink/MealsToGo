@@ -12,6 +12,7 @@ export const styles = StyleSheet.create({
   },
   listWrapper: {
     flex: 1,
-    padding: 16,
+    paddingHorizontal: 10,
+    paddingVertical: 5,
   },
 });
